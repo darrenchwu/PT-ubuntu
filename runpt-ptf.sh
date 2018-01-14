@@ -1,14 +1,9 @@
 #!/bin/bash
 # Author:  Xlemon
-# Contact me: Telegram @xlemons
+# 此腳本的原始作者為 Xlemon - Telegram @xlemons
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 clear
-printf "
-#############################################################################################
-#     PT Runtime environment setup for Alpharacks Debian 7&8 Mayby Support Ubunt 14-16      #
-#                 For more information please concact me via Telegram                       #
-#############################################################################################
-"
+
 # Check if user is root
 [ $(id -u) != "0" ] && { echo "${CFAILURE}Error: You must be root to run this script${CEND}"; exit 1; }
 #update system
