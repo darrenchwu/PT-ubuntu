@@ -4,7 +4,7 @@ Ubuntu 16.04安裝ProfitTrailer機器人運行所需環境
 
 # 安装方法：
 ```bash
-wget -N --no-check-certificate https://github.com/darrenchwu/PT-ubuntu/raw/master/runpt.sh && bash runpt.sh
+wget https://github.com/darrenchwu/PT-ubuntu/raw/master/runpt.sh && bash runpt.sh
 ```
 
 # 完整GCP安裝PT說明
